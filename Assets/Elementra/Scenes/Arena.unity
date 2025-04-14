@@ -97,7 +97,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: b7c685c94dae3794f83dc26488c01913, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1626,9 +1626,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 7685259907049374069}
-  - {fileID: 543450652269984877}
-  - {fileID: 1816412070}
   - {fileID: 1685108565}
   - {fileID: 12234326}
   m_Father: {fileID: 0}
@@ -2987,7 +2984,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 000bb697fd86920438880c93aa7c84cc, type: 3}
       propertyPath: m_Name
-      value: SM_Arena_4_merged
+      value: SM_Arena_4
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 000bb697fd86920438880c93aa7c84cc, type: 3}
       propertyPath: m_IsActive
@@ -3337,6 +3334,9 @@ Transform:
   - {fileID: 155756077}
   - {fileID: 1270002092}
   - {fileID: 669999248}
+  - {fileID: 7685259907049374069}
+  - {fileID: 543450652269984877}
+  - {fileID: 1816412070}
   m_Father: {fileID: 635499063}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1770534800
@@ -3463,7 +3463,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 635499063}
+    m_TransformParent: {fileID: 1685108565}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 3891c5f27b4a8c24b811f6626f123780, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3672,7 +3672,7 @@ Transform:
   m_Children:
   - {fileID: 832232275}
   - {fileID: 1300264251971107942}
-  m_Father: {fileID: 635499063}
+  m_Father: {fileID: 1685108565}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &919132148335765207
 GameObject:
@@ -3828,7 +3828,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 635499063}
+  m_Father: {fileID: 1685108565}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9013638940035099595
 GameObject:
